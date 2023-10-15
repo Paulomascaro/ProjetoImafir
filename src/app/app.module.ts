@@ -1,23 +1,20 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
-import { LeafletModule } from '@asymmetrik/ngx-leaflet';
-
-
-import { AppComponent } from './app.component';
-import { MapaComponent } from './mapa/mapa.component';
 import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MapComponent } from './map/map.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    MapaComponent
+    MapComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule,
-    LeafletModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
