@@ -1,19 +1,2 @@
-body, html {
-    height: 100%;
-    margin: 0;
-  }
-  
-  .container {
-    display: flex;
-    height: 100vh;
-  }
-  
-  .sidebar {
-    width: 250px;
-    background-color: #f1f1f1;
-    padding: 20px;
-  }
-  
-  .map {
-    flex: 1;
-  }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
